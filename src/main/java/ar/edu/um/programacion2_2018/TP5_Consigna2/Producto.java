@@ -3,6 +3,7 @@ package ar.edu.um.programacion2_2018.TP5_Consigna2;
 import java.io.Serializable;
 
 public class Producto implements Serializable {
+	private static final long serialVersionUID = -8766854803907865222L;
 	private String nombre;
 	private double precio;
 	int min=100;
